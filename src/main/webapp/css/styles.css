@@ -1,0 +1,42 @@
+.weather-portlet {
+        background: linear-gradient(to bottom, #4facfe, #00f2fe);
+        border-radius: 10px;
+        color: #fff;
+        padding: 20px;
+        max-width: 250px;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+}
+
+.weather-header h2 {
+        font-size: 1.5em;
+        margin: 0;
+        padding: 5px 0;
+}
+
+.temperature {
+        font-size: 48px;
+        font-weight: bold;
+        margin: 10px 0;
+}
+
+.details {
+        font-size: 0.9em;
+        line-height: 1.5em;
+        padding-top: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.weather-icon {
+        font-size: 50px;
+        margin-bottom: 10px;
+}
+.fade-in {
+        opacity: 0;
+        transition: opacity 1s ease-in; /* Smooth fade-in effect */
+}
+
+.fade-in.visible {
+        opacity: 1;
+}
